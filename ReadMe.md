@@ -3,7 +3,6 @@
 The covarius data normalisation application takes bank acount data in json format, processes the data according to the business rules, and generates a cvs file with the processed data.
 
 ## Installation
-Follow the following steps to run the application.
 
 1. Clone the project repository.
 ```bash
