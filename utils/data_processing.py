@@ -56,7 +56,7 @@ def process_data(data: DataFrame):
                 OutputFields.account_number_type: AccountNumberType.iban
             }
         # if sortCode and accountNumber are not empty
-        elif data[InputFields.sort_code][index] and data[InputFields.sort_code][index]:
+        elif data[InputFields.sort_code][index] and data[InputFields.account_number][index]:
             processed_data = {
                 OutputFields.account_number: data[InputFields.sort_code][index] + data[InputFields.account_number][
                     index],
